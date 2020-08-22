@@ -1,0 +1,14 @@
+{
+	"Stateless Component": {
+		"scope": "javascript,typescript",
+		"prefix": "dumb",
+		"body": [
+			"import React from 'react';",
+			"const componentName = (props) => {",
+			"//code goes here",
+			"};",
+			"export default componentName;"
+		],
+		"description": "Gets generic stateless component code"
+	}
+}
