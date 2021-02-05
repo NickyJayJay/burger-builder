@@ -13,10 +13,6 @@ class Modal extends Component {
     getSnapshotBeforeUpdate(prevProps, prevState) {
         return null;
     }
- 
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        console.log('[Modal] WillUpdate');
-    }
 
     render () {
         return (
