@@ -10,14 +10,6 @@ class Modal extends Component {
         return nextProps.show !== this.props.show || nextProps.children !== this.props.children;
     }
 
-    getSnapshotBeforeUpdate(prevProps, prevState) {
-        return null;
-    }
- 
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        console.log('[Modal] WillUpdate');
-    }
-
     render () {
         return (
             <Aux>
