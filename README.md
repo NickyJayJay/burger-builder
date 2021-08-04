@@ -1,1 +1,1 @@
-This is the Burger Builder app from Maximillian Schwarzmüller's Udemy Course: React - The Complete Guide (incl Hooks, React Router, Redux)
+React app that allows you to choose ingredients for your burger and then order it.
